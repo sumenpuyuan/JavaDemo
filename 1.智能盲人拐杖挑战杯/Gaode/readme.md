@@ -7,3 +7,4 @@
     自己是一拿到坐标，然后在地图上做标记，然而盲人是可能动的，所以标记也应该随之跟着移动
 ## 3.坐标转换问题 ##
    宇航他们硬件给我的数据是gps坐标，高德的是人家自己的坐标，他们的转换需要用到高德提供的web api，然而这个最多调用几万次，实际是我们每隔几秒就需要调一次，次数根本不够用。（php目录里提供服务端代码）
+Android启动引导页参考的这里[http://jaeger.itscoder.com/android/2015/11/18/android-splash.html](http://jaeger.itscoder.com/android/2015/11/18/android-splash.html)
