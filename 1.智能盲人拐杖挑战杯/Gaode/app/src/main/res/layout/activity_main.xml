@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lv.gaode.MainActivity">
+    <com.amap.api.maps.MapView
+
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/location_errInfo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/red"
+        android:textColor="@color/darkgrey"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+    <RadioGroup
+        android:id="@+id/gps_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/gps_locate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="定位"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/gps_follow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="追随"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/gps_rotate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+    <Button
+        android:layout_below="@+id/gps_radio_group"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/blindAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="显示盲人位置"
+        android:background="@drawable/btn_shape"/>
+    <Button
+        android:textColor="#fff"
+        android:layout_below="@+id/gps_radio_group"
+        android:layout_toRightOf="@+id/blindAddress"
+        android:id="@+id/navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始导航"
+        android:background="@drawable/btn_shape"/>
+
+    <Button
+        android:id="@+id/bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gps_radio_group"
+        android:layout_toRightOf="@id/navi"
+        android:background="@drawable/btn_shape"
+        android:textColor="#fff"
+        android:text="公交车规划"
+        />
+
+</RelativeLayout>
