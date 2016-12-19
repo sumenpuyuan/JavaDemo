@@ -16,3 +16,6 @@ getAddress.php获取盲人坐标
 updateAddress.php设置盲人坐标
 
 server.php和服务器建立socket连接，然后通过坐标转换api，字符串处理存到数据库里。
+<img src="images/3.jpg" width="320"><br>
+<img src="images/2.jpg" width="320"><br>
+<img src="images/1.jpg" width="320">
