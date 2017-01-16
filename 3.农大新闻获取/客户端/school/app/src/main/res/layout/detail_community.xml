@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/commu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:text="社团名字"/>
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_below="@+id/commu_name"
+        android:layout_width="match_parent"
+        android:layout_height="480sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/commu_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="社团介绍"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是哈哈哈哈哈哈哈"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/likeText"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#FF4500"
+        android:text="喜欢人数"/>
+    <TextView
+        android:id="@+id/likeNums"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/likeText"
+        android:text="0"/>
+    <Button
+        android:id="@+id/support"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="支持它"/>
+</RelativeLayout>
+
+
+
