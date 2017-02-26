@@ -6,8 +6,10 @@
 <img src="images/3.jpg" width="240px"/>
 <img src="images/4.jpg" width="240px"/>
 <img src="images/5.jpg" width="240px"/>
-
-
+##功能分析
+<img src="images/6.png" width="640px"/>
+##e-r图
+<img src="images/7.png" width="640px"/>
 ##老师提出的问题## 
 自己的新闻是每天晚上全部更新，但是可能隔天新闻并不会更新，或者更新只更新一个，你现在新闻少，那么没什么问题，如果新闻多了，就会出现效率问题。
 ## 一：技术点 ##
