@@ -10,12 +10,16 @@ jquery弹出窗问题
 js判断变量是不是空的问题
 
 顶部不对齐问题
+
 ##详细说明都在word文档里，这里不进行说明，
-<img src="images/1.png" width="320px"/>
-<img src="images/2.png" width="320px"/>
-<img src="images/3.png" width="320px"/>
-<img src="images/4.png" width="320px"/>
-<img src="images/5.png" width="320px"/>
-<img src="images/6.png" width="320px"/>
-<img src="images/7.png" width="320px"/>
+
+<img src="images/1.png" width="320px"/><br/>
+
+<img src="images/2.png" width="320px"/><br/>
+
+<img src="images/3.png" width="320px"/><br/>
+<img src="images/4.png" width="320px"/><br/>
+<img src="images/5.png" width="320px"/><br/>
+<img src="images/6.png" width="320px"/><br/>
+<img src="images/7.png" width="320px"/><br/>
 
