@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+*{margin:0px;}
+.biaoge{
+	width: 100%;
+	border-collapse:collapse;
+}
+.biaoge td{
+	border: 1px solid #98bf21;
+	height: 25px;
+	text-align:center;
+}
+.biaoge .shou{
+	background-color: #000;
+	color:#fff;
+}
+.biaoge button{
+	
+	width: 60%;
+	height: 23px; 
+	background-color: #3355D0;
+	border:1px solid #3355D0;
+	border-radius: 15px;
+	font-family: "微软雅黑";
+	color: #fff;
+	font-weight: bold;
+}
+.bottom{
+	height:33px;
+	margin:0 auto;
+	
+}
+.bottom button{
+	display:inline-block;
+	height: 33px;
+	background-color: #3355D0;
+	border:1px solid #3355D0;
+	border-radius: 15px;
+	font-family: "微软雅黑";
+	color: #fff;
+	
+}
+.bottom input{
+	display:inline-block;
+	height:33px;
+	border:1px solid #3355D0;
+	border-radius: 15px;
+}
+.bottom a{
+	float:right;
+	text-decoration:none;
+	color:#fff;
+	display:block;
+ 	
+ 	height:33px;
+ 	border:1px solid #3355D0;
+	border-radius: 15px;
+ 	background-color:#000;
+ 	line-height:33px;
+ 	font-family: "微软雅黑";
+}
+.top{
+	height:60px;
+	background-color:#5C307D;
+	color:#fff;
+	text-align:center;
+	line-height:60px;
+	font-size:2em;
+	
+}
+
+/*主页面css*/
+.middle a{
+	text-decoration:none;
+	color:#fff;
+	display:inline-block;
+ 	width:120px;
+ 	height:33px;
+ 	border:1px solid #3355D0;
+	border-radius: 15px;
+ 	background-color:#3355D0;
+ 	line-height:33px;
+ 	font-family: "微软雅黑";
+}
+/*登录页面css*/
+#Login{width:340px; height:400px; background:#fff; margin:50px auto; border:1px solid #ddd;border-radius:10px;}
+	#Login h3{font-size:14px;text-indent:45px;height:85px;	line-height:85px;}
+	#Login .loginCon{width:252px; height:250px; margin:0px auto;}
+	#Login .loginCon p.txt{ padding-bottom:20px;}
+	#Login .loginCon p.txt input{width:240px; height:35px; border:1px solid #ddd; 
+				border-radius:5px;/*css3 鍦嗚鏍峰紡*/}
+	#Login .loginCon p.txt input.yzm{width:80px;}
+	#Login .loginCon .but{width:90px; height:40px; border-radius:5px;border:1px solid #ddd;background:#5c307d; color:#fff;}

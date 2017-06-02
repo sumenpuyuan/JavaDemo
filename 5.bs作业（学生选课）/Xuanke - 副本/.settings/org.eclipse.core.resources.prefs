@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebRoot/Admin/ChangeCourse.jsp=UTF-8
+encoding//WebRoot/Admin/ChangeStu.jsp=UTF-8
+encoding//WebRoot/Admin/ChangeXuan.jsp=UTF-8
+encoding//WebRoot/Admin/index.jsp=UTF-8
+encoding//WebRoot/Front/Elective.jsp=UTF-8
+encoding//WebRoot/Front/index.jsp=UTF-8
+encoding//WebRoot/META-INF/View.jsp=UTF-8
+encoding//WebRoot/Util/checkAdminSession.jsp=UTF-8
+encoding//WebRoot/Util/checkUserSession.jsp=UTF-8
+encoding//WebRoot/admin.jsp=UTF-8
+encoding//WebRoot/dealAdmin.jsp=UTF-8
+encoding/<project>=UTF-8

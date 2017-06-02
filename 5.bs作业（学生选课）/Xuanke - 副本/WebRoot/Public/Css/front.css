@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+*{margin:0px;}
+.biaoge{
+	width: 100%;
+	border-collapse:collapse;
+}
+.biaoge td{
+	border: 1px solid #98bf21;
+	height: 25px;
+	text-align:center;
+}
+.biaoge .shou{
+	background-color: #000;
+	color:#fff;
+}
+.top{
+	height:60px;
+	background-color:#5C307D;
+	color:#fff;
+	font-size:1em;
+	
+}
+.top .title{
+	float:left;
+	font-size:2em;
+	line-height:60px;
+	text-indent:2em;
+}
+.top .status{
+	float:right;
+	line-height:60px;
+}
+.top a{
+	float:right;
+	text-decoration:none;
+	line-height:60px;
+	color:#fff;
+}
+.top a:hover{
+	color:#3355d0;
+}
+.middle a{
+	text-decoration:none;
+	color:#fff;
+	display:inline-block;
+ 	width:120px;
+ 	height:33px;
+ 	border:1px solid #3355D0;
+	border-radius: 15px;
+ 	background-color:#3355D0;
+ 	line-height:33px;
+ 	font-family: "微软雅黑";
+}
+.bottom a{
+	float:right;
+	text-decoration:none;
+	color:#fff;
+	display:block;
+ 	padding:3px;
+ 	height:32px;
+ 	border:1px solid #3355D0;
+	border-radius: 10px;
+ 	background-color:#000;
+ 	line-height:33px;
+ 	font-family: "微软雅黑";
+}
+.bottom .but{float:right;width:90px; height:40px; border-radius:10px;border:1px solid #ddd;background:#000; color:#fff;font-family:"微软雅黑";}
+#Login{width:340px; height:400px; background:#fff; margin:50px auto; border:1px solid #ddd;border-radius:10px;}
+	#Login h3{font-size:14px;text-indent:45px;height:85px;	line-height:85px;}
+	#Login .loginCon{width:252px; height:250px; margin:0px auto;}
+	#Login .loginCon p.txt{ padding-bottom:20px;}
+	#Login .loginCon p.txt input{width:240px; height:35px; border:1px solid #ddd; 
+				border-radius:5px;/*css3 鍦嗚鏍峰紡*/}
+	#Login .loginCon p.txt input.yzm{width:80px;}
+	#Login .loginCon .but{width:90px; height:40px; border-radius:5px;border:1px solid #ddd;background:#5c307d; color:#fff;}
