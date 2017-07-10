@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_group_statistics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".GroupStatistics">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="群体查询"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+    </android.support.v7.widget.Toolbar>
+    <EditText
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/start_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="开始鸡的代码"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="15dp"
+        />
+    <EditText
+        android:id="@+id/end_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="结束鸡的代码"
+        android:layout_below="@+id/toolbar"
+        android:layout_toRightOf="@+id/start_id"
+        />
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_id"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="开始日期"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束日期"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/startTime"
+        android:layout_below="@+id/start_id"
+        />
+    <Button
+        android:id="@+id/groupQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textColor="#fff"
+
+        android:layout_below="@+id/startTime"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:topLeftRadius="8dip"
+        android:topRightRadius="8dip"
+        android:bottomLeftRadius="8dip"
+        android:bottomRightRadius="8dip"
+        android:background="@drawable/shape"/>
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/HorizontalScrollView01"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/groupQuery"
+            android:layout_width="fill_parent">
+            <ListView android:id="@+id/ListView01"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+            </ListView>
+        </HorizontalScrollView>
+
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HorizontalScrollView01"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+
+        android:orientation="vertical">
+        <!--app:tabIndicatorHeight="0dp"是滑动条不可见-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/group_top_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:tabIndicatorHeight="1dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+        <FrameLayout
+            android:id="@+id/group_fragments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

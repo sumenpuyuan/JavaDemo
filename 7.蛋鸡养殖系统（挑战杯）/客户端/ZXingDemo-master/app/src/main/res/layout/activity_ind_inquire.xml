@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ind_inquire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+
+
+    tools:context=".IndInquire">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:layout_margin="0dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="个体查询"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+
+            android:textColor="#fff"/>
+    </android.support.v7.widget.Toolbar>
+    <EditText
+        android:id="@+id/chicken_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:hint="请输入鸡的编号"
+        android:layout_margin="15dp"/>
+
+
+    <TextView
+        android:id="@+id/start_time"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chicken_id"
+        android:layout_marginLeft="15dp"
+        android:text="起始时间"
+        />
+    <TextView
+
+        android:id="@+id/end_time"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chicken_id"
+        android:layout_toRightOf="@+id/start_time"
+        android:layout_marginLeft="15dp"
+        android:text="终止时间"
+
+         />
+
+
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textColor="#fff"
+        android:layout_below="@+id/start_time"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="20dp"
+        android:topLeftRadius="8dip"
+        android:topRightRadius="8dip"
+        android:bottomLeftRadius="8dip"
+        android:bottomRightRadius="8dip"
+        android:background="@drawable/shape"
+       />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/query"
+        android:id="@+id/table"
+        >
+
+        <HorizontalScrollView
+            android:id="@+id/HorizontalScrollView01"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+            <ListView android:id="@+id/ListView01"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+            </ListView>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+    <WebView
+
+        android:id="@+id/webview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table">
+
+    </WebView>
+
+</RelativeLayout>
