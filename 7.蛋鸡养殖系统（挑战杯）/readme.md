@@ -11,6 +11,7 @@ http://blog.csdn.net/hellogv/article/details/6075014
 ## 目的
 
 当时和玉洁一起参加互联网+和挑战杯时做的一个软件。效果图如下
+
 <img src="images/1.jpg" width="200x"/>
 <img src="images/2.jpg" width="200x"/>
 <img src="images/3.jpg" width="200x"/>
