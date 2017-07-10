@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.lv.wulianwang.MainActivity">
+    <ImageView
+        android:id="@+id/image2"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/test"/>
+    <Button
+        android:id="@+id/refresh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刷新信息"
+        android:textColor="#fff"
+        android:layout_below="@+id/start_time"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="20dp"
+        android:topLeftRadius="8dip"
+        android:topRightRadius="8dip"
+        android:bottomLeftRadius="8dip"
+        android:bottomRightRadius="8dip"
+        android:background="@drawable/button_refresh"
+        />
+    <ListView
+        android:id="@+id/second_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+</LinearLayout>
