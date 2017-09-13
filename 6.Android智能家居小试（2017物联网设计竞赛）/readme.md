@@ -1,3 +1,30 @@
+##第二版
+过了省赛后，做了部分改进，UI方面做了一些调整。运用高德地图和心知天气来显示天气。后台写了一个一直在跑的服务，如果气体信息出现异常，震动和通知栏提醒用户出现异常。
+最主要的是后台服务和前台通知栏那块，参考了《Android第一行代码》书籍和网上的相关知识，做了出来。
+###1.底部导航github
+https://github.com/RoyWallace/BottomNavigationBar
+###2.Android前台服务service解析
+http://blog.csdn.net/lfdfhl/article/details/9998987
+###3.全面了解Android notification
+http://www.jianshu.com/p/22e27a639787
+演示图片
+
+<img src="images/4.jpg" width="320px"/>
+<img src="images/5.jpg" width="320px"/>
+<img src="images/6.jpg" width="320px"/>
+<img src="images/7.jpg" width="320px"/>
+<img src="images/8.jpg" width="320px"/>
+
+##第一版
+
+###1 assets目录使用
+主要用来放天气信息的那几十张照片
+
+http://blog.csdn.net/fengyuzhengfan/article/details/38360017
+###2 listview与adapter用法
+
+http://www.cnblogs.com/zhengbeibei/archive/2013/05/14/3078805.html
+
 ##正文
 做这个是为了和宇航参加2017物联网设计竞赛，和之前和宇航合作的智能拐杖逻辑大体是类似的。效果图如下
 

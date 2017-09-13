@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/shang"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="@drawable/first_bg">
+        <LinearLayout
+            android:id="@+id/middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/temperture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="48dp"
+
+                android:text="27℃"/>
+            <ImageView
+                android:id="@+id/weather_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/temperture"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/middle"
+            android:text="多云 莲池 河北保定"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/zhong"
+        android:layout_below="@+id/shang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:id="@+id/shufang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_circle"
+            android:text="书房"
+            android:textColor="#fff"/>
+        <Button
+            android:id="@+id/keting"
+            android:layout_toRightOf="@+id/shufang"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_circle"
+            android:text="客厅"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/woshi"
+            android:layout_toRightOf="@+id/keting"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_circle"
+            android:text="卧室"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<!--房间数据格式条目-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="50dp" android:layout_width="fill_parent">
+<ImageView android:layout_alignParentRight="true"
+    android:layout_marginRight="20dp"
+    android:layout_width="40sp"
+    android:layout_height="40sp"
+    android:id="@+id/ItemImage"
+    android:layout_centerVertical="true"
+    android:src ="@drawable/d1"/>
+<TextView android:id="@+id/ItemTitle" android:layout_height="wrap_content"
+    android:layout_width="fill_parent" android:textSize="20sp"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20dp"
+    android:text="ceshi"/>
+
+
+</RelativeLayout>
